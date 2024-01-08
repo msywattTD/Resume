@@ -1,0 +1,145 @@
+body {
+    width: 100vw;
+    margin-left: 0px;
+    background-color: rgb(25,25,25);
+}
+
+#main_container {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(40,40,40);
+}
+
+/* hr {
+    background-color: rgb(40,40,40);
+} 
+Doesnt change color? inspect later*/
+
+#section1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+}
+
+#box1 {
+    flex-grow: 3;
+    
+}
+
+#box2 {
+    display:flex;
+    flex-grow: 2;
+}
+
+#box3 {
+    width: 100vw;
+    margin: 12px;
+    color: rgb(135,135,135)
+
+
+}
+
+#pfp {
+    float: left;
+    padding: 12px;
+}
+
+#name {
+    padding: 12px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:  36px;
+}
+
+#occupation {
+ font-size: 24px;
+ color: #5B95BD;
+}
+
+.info_label {
+    margin: 12px;
+    text-align: right;
+    color: white;
+    font-weight: 800;
+}
+
+.info_dump {
+    margin: 12px;
+    color: rgb(135,135,135)
+}
+
+
+/* section 2 */
+#section_2_3_container {
+    display: flex;
+    border: green 2px solid;
+}
+
+
+#section2 {
+    flex-grow: 1;
+    display:flex;
+    flex-flow: column;
+    margin-left: 40px;
+    margin-right: 70px;
+    border: 2px blue solid;
+}
+
+#employment_container {
+    flex-flow: column;
+}
+
+#employment_bar, #education_bar {
+    display: flex;
+    color: white;
+    background-color: rgb(60,60,60);
+    height: 42px;
+    font-size:36px;
+    align-items: center;
+    padding: 4px;
+    padding-left: 52px; /* if I ever get unlazy and add the cute arrows */
+
+
+}
+
+.emp_loc, .edu_loc {
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    padding-left: 40px;
+}
+
+.emp_title, .edu_title {
+    font-size: 24px;
+    color:  rgb(135,135,135);
+    padding-left: 40px;
+}
+
+.emp_date, .edu_date {
+    color: rgb(135,135,135);
+    float: right;
+    padding: 8px;
+
+}
+
+.emp_desc, .edu_desc {
+    color: rgb(135,135,135);
+    text-wrap: wrap;
+    padding: 12px;
+    font-size: 18px;
+}
+
+/* Section 3 */
+
+#section3 {
+    flex-grow: 2;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills_title {
+    color: white;
+}
